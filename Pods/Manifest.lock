@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.7.2)
+  - Nimble (7.1.1)
+  - OHHTTPStubs (6.1.0):
+    - OHHTTPStubs/Default (= 6.1.0)
+  - OHHTTPStubs/Core (6.1.0)
+  - OHHTTPStubs/Default (6.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (6.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (6.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (6.1.0)
+  - OHHTTPStubs/Swift (6.1.0):
+    - OHHTTPStubs/Default
+  - Quick (1.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Nimble
+  - OHHTTPStubs
+  - OHHTTPStubs/Swift
+  - Quick
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Nimble
+    - OHHTTPStubs
+    - Quick
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Nimble: 391f07782af4b37914f9bd7b2ffbb952731b8202
+  OHHTTPStubs: 1e21c7d2c084b8153fc53d48400d8919d2d432d0
+  Quick: 03278013f71aa05fe9ecabc94fbcc6835f1ee76f
+
+PODFILE CHECKSUM: 23b32db9d649536357bb555b19b0a57852d72022
+
+COCOAPODS: 1.5.2
