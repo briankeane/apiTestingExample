@@ -14,6 +14,11 @@
 		4BB7EF1D20CC7C76008C6D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB7EF1C20CC7C76008C6D03 /* Assets.xcassets */; };
 		4BB7EF2020CC7C76008C6D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB7EF1E20CC7C76008C6D03 /* LaunchScreen.storyboard */; };
 		4BB7EF2B20CC7C76008C6D03 /* apiTestingExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7EF2A20CC7C76008C6D03 /* apiTestingExampleTests.swift */; };
+		4BF6B8A920CD8EB700A0E6B8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6B8A820CD8EB700A0E6B8 /* API.swift */; };
+		4BF6B8AB20CD90ED00A0E6B8 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6B8AA20CD90ED00A0E6B8 /* ViewControllerTests.swift */; };
+		4BF6B8AD20CD935900A0E6B8 /* MockAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6B8AC20CD935900A0E6B8 /* MockAPI.swift */; };
+		4BF6B8B120CD9A0B00A0E6B8 /* DisplayHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6B8B020CD9A0B00A0E6B8 /* DisplayHelper.swift */; };
+		4BF6B8B320CD9AF400A0E6B8 /* DisplayHelperMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6B8B220CD9AF400A0E6B8 /* DisplayHelperMock.swift */; };
 		832C41CC016330F2FB78CD64 /* Pods_apiTestingExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF71D3C2F65FCB7E81BC741 /* Pods_apiTestingExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +46,11 @@
 		4BB7EF2620CC7C76008C6D03 /* apiTestingExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apiTestingExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB7EF2A20CC7C76008C6D03 /* apiTestingExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiTestingExampleTests.swift; sourceTree = "<group>"; };
 		4BB7EF2C20CC7C76008C6D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF6B8A820CD8EB700A0E6B8 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4BF6B8AA20CD90ED00A0E6B8 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		4BF6B8AC20CD935900A0E6B8 /* MockAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MockAPI.swift; path = apiTestingExampleTests/MockAPI.swift; sourceTree = "<group>"; };
+		4BF6B8B020CD9A0B00A0E6B8 /* DisplayHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DisplayHelper.swift; path = apiTestingExample/DisplayHelper.swift; sourceTree = "<group>"; };
+		4BF6B8B220CD9AF400A0E6B8 /* DisplayHelperMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DisplayHelperMock.swift; path = apiTestingExampleTests/DisplayHelperMock.swift; sourceTree = "<group>"; };
 		5DF71D3C2F65FCB7E81BC741 /* Pods_apiTestingExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apiTestingExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6935097D0DFE4F9BED826B87 /* Pods-apiTestingExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiTestingExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-apiTestingExampleTests/Pods-apiTestingExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA6B61DCEF817542FD5325CD /* Pods-apiTestingExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiTestingExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-apiTestingExample/Pods-apiTestingExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +90,9 @@
 		4BB7EF0920CC7C74008C6D03 = {
 			isa = PBXGroup;
 			children = (
+				4BF6B8B020CD9A0B00A0E6B8 /* DisplayHelper.swift */,
+				4BF6B8B220CD9AF400A0E6B8 /* DisplayHelperMock.swift */,
+				4BF6B8AC20CD935900A0E6B8 /* MockAPI.swift */,
 				4BB7EF1420CC7C74008C6D03 /* apiTestingExample */,
 				4BB7EF2920CC7C76008C6D03 /* apiTestingExampleTests */,
 				4BB7EF1320CC7C74008C6D03 /* Products */,
@@ -100,6 +113,8 @@
 		4BB7EF1420CC7C74008C6D03 /* apiTestingExample */ = {
 			isa = PBXGroup;
 			children = (
+				4BF6B8A820CD8EB700A0E6B8 /* API.swift */,
+				4BF6B8AA20CD90ED00A0E6B8 /* ViewControllerTests.swift */,
 				4BB7EF1520CC7C74008C6D03 /* AppDelegate.swift */,
 				4BB7EF1720CC7C74008C6D03 /* ViewController.swift */,
 				4BB7EF1920CC7C74008C6D03 /* Main.storyboard */,
@@ -312,7 +327,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BF6B8B120CD9A0B00A0E6B8 /* DisplayHelper.swift in Sources */,
 				4BB7EF1820CC7C74008C6D03 /* ViewController.swift in Sources */,
+				4BF6B8A920CD8EB700A0E6B8 /* API.swift in Sources */,
 				4BB7EF1620CC7C74008C6D03 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BF6B8AB20CD90ED00A0E6B8 /* ViewControllerTests.swift in Sources */,
+				4BF6B8AD20CD935900A0E6B8 /* MockAPI.swift in Sources */,
+				4BF6B8B320CD9AF400A0E6B8 /* DisplayHelperMock.swift in Sources */,
 				4BB7EF2B20CC7C76008C6D03 /* apiTestingExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
